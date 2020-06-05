@@ -1,0 +1,93 @@
+body {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.mdc-card {
+  background-color: white; }
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.book-card {
+  background-color: white; }
+  .book-card .mdc-card__action {
+    min-width: 36px; }
+    .book-card .mdc-card__action .mdc-button__icon:only-child {
+      margin-right: 0; }
+    .book-card .mdc-card__action:last-child {
+      margin-left: auto; }
+
+.flash {
+  padding: 16px;
+  text-align: center; }
+  .flash.flash--error {
+    background-color: tomato;
+    color: white; }
+
+#search-form {
+  padding: 4px 24px 0px; }
+
+.auth-page {
+  background-image: url("../img/bg.jpg"); }
+  .auth-page #main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .auth-page .auth-form {
+    width: 100%;
+    max-width: 400px; }
+    .auth-page .auth-form .mdc-text-field {
+      display: 100%;
+      max-width: 200px;
+      display: block; }
+
+#error-page #main {
+  max-width: 1024px;
+  margin: 2em auto;
+  text-align: center; }
+  #error-page #main .error-icon {
+    color: grey;
+    font-size: 5em; }
+  #error-page #main pre {
+    text-align: left; }
+
+#main-page {
+  background-image: url("../img/bg.jpg"); }
+  #main-page .mdc-toolbar {
+    background-color: transparent; }
+  #main-page #main {
+    color: white;
+    text-align: center;
+    margin-top: 128px; }
+    #main-page #main i {
+      font-size: 72px; }
+    #main-page #main h1 {
+      font-size: 64px;
+      margin: .25em; }
+    #main-page #main p {
+      font-size: 36px;
+      margin: .25em 0 1em; }
+    #main-page #main a {
+      display: inline-block;
+      margin: .5em; }
+
+#user-page #main {
+  text-align: center;
+  padding: 64px 16px 0px; }
+
+#user-page .user-photo {
+  max-width: 128px;
+  border-radius: 100%;
+  display: inline-block; }

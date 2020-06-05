@@ -1,0 +1,49 @@
+{
+  "name": "codelibrary",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js -i max",
+    "dev": "nodemon -r dotenv/config index.js",
+    "sass": "gulp watch:sass",
+    "lint": "eslint",
+    "stop": "pm2 stop all"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.1.0",
+    "http-server": "^0.12.3",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apicache": "^1.2.0",
+    "bcrypt": "^4.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.4",
+    "csurf": "^1.9.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-rate-limit": "^2.11.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.22.0",
+    "jwt-simple": "^0.5.6",
+    "material-components-web": "^0.28.0",
+    "moment": "^2.20.1",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.1",
+    "normalize.css": "^7.0.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "pm2": "^4.4.0",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.4.5"
+  }
+}
