@@ -33,7 +33,7 @@
     "helmet": "^3.22.0",
     "jwt-simple": "^0.5.6",
     "material-components-web": "^0.28.0",
-    "moment": "^2.20.1",
+    "moment": "^2.29.4",
     "mongoose": "^5.9.17",
     "morgan": "^1.10.0",
     "ms": "^2.1.1",
